@@ -60,7 +60,7 @@
   margin: 120px auto;
 }
 
-.the-deal h1, h6, h2 {
+.the-deal h1,.the-deal h6,.the-deal h2 {
   color: #F00;
   text-align: center;
   font-size: 88px;
@@ -133,3 +133,114 @@
 .party img {
   padding: 68px 0px;
 }
+
+/* location section */
+
+.party-location {
+  margin: 120px 0px;
+}
+
+.location {
+  background-image: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 110px 0px;
+}
+
+.location-detail h3{
+  text-align: center;
+  color: #070211;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 56px;
+}
+
+.location-detail h3 span {
+  color: #FF0000;
+}
+
+.location button {
+  background-color: #F00;
+  border: none;
+  border-radius: 8px;
+  padding: 16px 32px;
+  color: #FFF;
+  text-align: center;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+
+}
+
+/* best offer section styles */
+
+.offer-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.offer {
+  width: 393px;
+}
+
+.offer h6 {
+  color: #F00;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+}
+
+.offer h3 {
+  color: #070211;
+  font-family: Merriweather;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 900;
+  margin-top: 16;
+  margin-bottom: 22;
+}
+
+.offer p, .happy-new-year p {
+  color: rgba(7, 2, 17, 0.60);
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+}
+
+.offer-container > img {
+  padding: 50px;
+  border: 15px solid #FF0000;
+  border-radius: 100%;
+}
+
+.happy-new-year {
+  width: 276px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+
+
+.happy-new-year h3 {
+  color: #F00;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+}
+
+.happy-new-year p {
+  margin-top: 16px;
+  margin-bottom: 13px;
+}
+
+
+
+/* holiday sale section style */
